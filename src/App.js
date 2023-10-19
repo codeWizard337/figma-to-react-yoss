@@ -1,13 +1,13 @@
 import './App.css';
-import SideBar, { MobileSideBar } from './components/sidebar';
-import SVG from './components/svg'
-import NavBar from './components/navbar'
-import Content from './components/content'
-import Store from './store/store'
-import { useEffect, useState } from 'react';
+import SideBar, { MobileSideBar } from './components/SideBar';
+import SVG from './components/SVG'
+import NavBar from './components/NavBar'
+import Content from './components/Content'
+import Store, { initialState } from './store/store'
+import { useState } from 'react';
 
 function App() {
-  const [state, setState] = useState({ mobileSideBar: false })
+  const [state, setState] = useState(initialState)
   return (
     <Store.Provider value={{ state, setState }}>
       <SVG />

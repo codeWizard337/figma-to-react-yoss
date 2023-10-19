@@ -7,13 +7,13 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 
-const statusStyle = {
-    pending:'border-purple-300 bg-purple-100 text-purple-800',
-    completed:'border-green-300 bg-green-100 text-green-800',
-    canceled:'border-red-300 bg-red-100 text-red-800'
+const statusStyle: { [key: string]: string } = {
+    pending: 'border-purple-300 bg-purple-100 text-purple-800',
+    completed: 'border-green-300 bg-green-100 text-green-800',
+    canceled: 'border-red-300 bg-red-100 text-red-800'
 }
 
-function createData(name, gender, time, status) {
+const createData = (name: string, gender: string, time: string, status: string) => {
     return { name, gender, time, status };
 }
 
@@ -24,7 +24,7 @@ const rows = [
     createData('Susan', "Female", "12:00 AM", "Pending"),
 ];
 
-export default function AppointmentsTable() {
+const AppointmentsTable = () => {
     return (
         <TableContainer component={Paper} >
             <Table aria-label="simple table">
@@ -57,3 +57,4 @@ export default function AppointmentsTable() {
         </TableContainer>
     );
 }
+export default AppointmentsTable

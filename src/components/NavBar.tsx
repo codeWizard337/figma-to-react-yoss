@@ -1,7 +1,8 @@
 import { useContext } from "react"
 import Store from "../store/store"
+import { HeaderIconType } from "../@types/types"
 
-const HeaderIcon = ({ href, badge }) => {
+const HeaderIcon = ({ href, badge }: HeaderIconType) => {
     return (
         <div className='relative p-2'>
             <svg width={20} height={20}><use href={href} /></svg>
