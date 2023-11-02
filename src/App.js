@@ -2,7 +2,9 @@ import './App.css';
 import SideBar, { MobileSideBar } from './components/SideBar';
 import SVG from './components/SVG'
 import NavBar from './components/NavBar'
-import Content from './components/Content'
+import Overview from './components/Overview'
+import Visits from './components/Visits'
+import Earnings from './components/Earnings'
 import Store, { initialState } from './store/store'
 import { useState } from 'react';
 
@@ -17,7 +19,7 @@ function App() {
 
         <div className='flex flex-col w-full'>
           <NavBar />
-          <Content />
+          <Earnings />
         </div>
       </div>
     </Store.Provider>

@@ -51,6 +51,24 @@ const SVG = () => {
                 <path d="M22.5 10.6667H1.5M22.5 13.5833V9.26666C22.5 7.30648 22.5 6.32639 22.1185 5.57769C21.783 4.91913 21.2475 4.3837 20.589 4.04814C19.8403 3.66666 18.8602 3.66666 16.9 3.66666H7.1C5.13982 3.66666 4.15972 3.66666 3.41103 4.04814C2.75247 4.3837 2.21703 4.91913 1.88148 5.57769C1.5 6.32639 1.5 7.30648 1.5 9.26666V19.0667C1.5 21.0268 1.5 22.0069 1.88148 22.7556C2.21703 23.4142 2.75247 23.9496 3.41103 24.2852C4.15972 24.6667 5.13982 24.6667 7.1 24.6667H12M16.6667 1.33333V5.99999M7.33333 1.33333V5.99999M14.9167 21.1667L17.25 23.5L22.5 18.25" stroke="#7F56D9" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
             <svg id="svg-side-three-bar" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><path d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z" /></svg>
+            <svg id="svg-close" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11 1L1 11M1 1L11 11" stroke="#344054" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+            <svg id="svg-filter-lines" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 6H14M1.5 1H16.5M6.5 11H11.5" stroke="#344054" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+            <svg id="svg-search" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.5 16.5L13.5834 13.5833M15.6667 8.58333C15.6667 12.4954 12.4954 15.6667 8.58333 15.6667C4.67132 15.6667 1.5 12.4954 1.5 8.58333C1.5 4.67132 4.67132 1.5 8.58333 1.5C12.4954 1.5 15.6667 4.67132 15.6667 8.58333Z" stroke="#667085" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+            <svg id="svg-arrow-down1" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.00065 1.3335V10.6668M6.00065 10.6668L10.6673 6.00016M6.00065 10.6668L1.33398 6.00016" stroke="#475467" strokeWidth="1.33333" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+            <svg id="svg-check-circle" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.5 11L9.5 14L15.5 8M21 11C21 16.5228 16.5228 21 11 21C5.47715 21 1 16.5228 1 11C1 5.47715 5.47715 1 11 1C16.5228 1 21 5.47715 21 11Z" stroke="#7F56D9" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+            <svg id="svg-x-circle" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 8L8 14M8 8L14 14M21 11C21 16.5228 16.5228 21 11 21C5.47715 21 1 16.5228 1 11C1 5.47715 5.47715 1 11 1C16.5228 1 21 5.47715 21 11Z" stroke="#EE2D2D" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
 
 
         </div>

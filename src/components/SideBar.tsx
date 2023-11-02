@@ -15,7 +15,7 @@ const SideBarItem = ({ title, href, active, badge, small }: SideBarItemType) => 
 }
 const SideBar = () => {
     return (
-        <div className='hidden sm:flex min-w-[180px] bg-[#6941C6] gap-2 w-[354px] p-4 h-screen overflow-y-hidden flex-col justify-between'>
+        <div className='hidden sm:flex min-w-[180px] bg-[#6941C6] gap-2 w-[386px] p-4 h-screen overflow-y-hidden flex-col justify-between'>
             <div>
                 <div className='flex flex-col h-[170px] justify-center items-center'>
                     <svg width="40" height="40" ><use href="#svg-logo"/></svg>
